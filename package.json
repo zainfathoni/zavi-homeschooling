@@ -1,0 +1,27 @@
+{
+  "name": "zavi-homeschooling",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "ssc build -r -o --test=./test/index.js --headless",
+    "init-project": "ssc init",
+    "start": "ssc build -r -o",
+    "build": "ssc build -o"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "esbuild": "0.18.17"
+  },
+  "dependencies": {
+    "@types/node": "20.4.5",
+    "@types/react": "18.2.17",
+    "@types/react-dom": "18.2.7",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "typescript": "5.1.6"
+  },
+  "type": "module"
+}
