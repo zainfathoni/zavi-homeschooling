@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "ssc build -r -o --test=./test/index.js --headless",
+    "test": "ssc build -r -o --test=./test/index.ts --headless",
     "init-project": "ssc init",
     "start": "ssc build -r -o",
     "build": "ssc build -o"
